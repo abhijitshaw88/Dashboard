@@ -1,0 +1,122 @@
+html,body {
+    /* overflow: auto; */
+}
+
+body{
+    background-color:rgb(206, 226, 233);
+    overflow-y: auto;
+    overflow-x: hidden;
+} 
+.container-fluid.top{
+    background-color:rgb(232, 242, 248);
+     height: 500px;
+     border-radius: 10px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+    width: 1000px;
+    /* overflow: auto;  */
+} 
+.row.top{
+    /* height: 50px; */
+    background-color: white;
+    border-radius:10px;
+
+}
+.col-sm-5.top{
+    font-weight: bold;
+    padding-top: 10px;
+}
+.col-sm-7.top{
+    padding-top: 10px;
+    word-spacing: 20px;
+}
+.col-lg-3.top1{
+    padding-top: 10px;
+}
+.col-sm-12.top1{
+
+}
+.col-sm-12{
+    padding-top: 10px;
+    padding-left: 10px;
+    word-spacing: 40px;
+}
+.form-control.mr-sm-2{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 80%;
+    width:70%;
+    border-radius: 100px;
+}
+#nav-pic{
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+#nav-bell{
+  float: right; 
+  margin-top: 3px;
+  margin-left: 50px; 
+}
+#nav-btn{
+    float:none;
+    border-radius: 100px;
+    width: 80px;
+    margin-top: 3px;
+    margin-left: 50px;
+    margin-bottom: 7px;
+} 
+.list-group{
+    background:none;
+}
+.list-group-item {
+    background: white;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+}
+.col.mid{
+    background-color: white;
+    border-radius: 100px;
+    height: 40px;
+    margin-right: 30px;
+    margin-top: 40px;
+    word-spacing: 30px;
+    font-size: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#mid-span{
+    padding: 20px;
+    font-size: 10px;
+}
+a {
+    color:grey;
+}
+.col-lg-5.box{
+    margin-top: 10px;
+    background-color:white;
+    border-radius: 25px;
+}
+.pic-box{
+    height: 15px;
+    weight:15px;
+}
+.text-box{
+    font-size: 10px;
+    word-spacing: 1px;
+    color: gray;
+}
+#box-btn{
+    margin-top: 70px;
+    float: right;
+    border-radius: 25px;
+    width: 40px;
+    height:20px;
+}
+.col-sm-3.side-bar{
+    padding-left: 0px;
+}
