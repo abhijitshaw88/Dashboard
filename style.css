@@ -1,11 +1,9 @@
-html,body {
-    /* overflow: auto; */
+html {
+    overflow: auto;
 }
 
 body{
-    background-color:rgb(206, 226, 233);
-    overflow-y: auto;
-    overflow-x: hidden;
+    background-color:rgb(240, 240, 240);
 } 
 .container-fluid.top{
     background-color:rgb(232, 242, 248);
@@ -17,11 +15,15 @@ body{
     /* overflow: auto;  */
 } 
 .row.top{
-    /* height: 50px; */
+     height: 50px;
+    /* height: 20%; */
     background-color: white;
     border-radius:10px;
 
 }
+li.nav-item.top{
+    margin: 0 70px 0 0;
+ }
 .col-sm-5.top{
     font-weight: bold;
     padding-top: 10px;
@@ -41,32 +43,28 @@ body{
     padding-left: 10px;
     word-spacing: 40px;
 }
-.form-control.mr-sm-2{
-    padding-top: 5px;
-    padding-bottom: 5px;
-    height: 80%;
-    width:70%;
+.form-control{
+    /* /* height: 40px; */
+    width:200px;
     border-radius: 100px;
 }
 #nav-pic{
     height: 30px;
     width: 30px;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 2px;
     margin-left: 10px;
 }
 #nav-bell{
-  float: right; 
-  margin-top: 3px;
-  margin-left: 50px; 
+  margin-top: 10px;
+  /* margin-left: 30px;  */
 }
 #nav-btn{
-    float:none;
     border-radius: 100px;
     width: 80px;
-    margin-top: 3px;
-    margin-left: 50px;
-    margin-bottom: 7px;
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    margin-bottom: 2px;
 } 
 .list-group{
     background:none;
@@ -78,10 +76,13 @@ body{
     padding: 5px;
     text-align: center;
 }
+li.nav-item.gap{
+float:righ;
+}
 .col.mid{
     background-color: white;
     border-radius: 100px;
-    height: 40px;
+    height:40px;
     margin-right: 30px;
     margin-top: 40px;
     word-spacing: 30px;
@@ -111,7 +112,7 @@ a {
     color: gray;
 }
 #box-btn{
-    margin-top: 70px;
+    margin-top: 30%;
     float: right;
     border-radius: 25px;
     width: 40px;
@@ -120,3 +121,15 @@ a {
 .col-sm-3.side-bar{
     padding-left: 0px;
 }
+@media (min-width: 768px) {
+    aside {
+        height: 100%;
+    }
+}
+@media(min-width:1000px){
+    .form-control{
+        width:300px;
+        border-radius: 100px;
+    }
+}
+
