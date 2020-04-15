@@ -1,5 +1,6 @@
 html {
-    overflow: auto;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 body{
@@ -23,6 +24,9 @@ body{
 }
 li.nav-item.top{
     margin: 0 70px 0 0;
+ }
+ a:hover{
+     font-weight: bold;
  }
 .col-sm-5.top{
     font-weight: bold;
@@ -125,6 +129,7 @@ a {
     aside {
         height: 100%;
     }
+    
 }
 @media(min-width:1000px){
     .form-control{
@@ -132,4 +137,30 @@ a {
         border-radius: 100px;
     }
 }
-
+@media (min-width: 768px) {
+    li.nav-item.top{
+        margin: 0 20px 0 0;
+     }
+     li.nav-item.d{
+         width: 100%;
+        border-bottom: 1px solid lightgrey;
+    }
+    a.D:hover{
+        border-right: 2px solid blue;
+    }
+    a.b:hover{
+        border-bottom: 2px solid blue;
+    }
+} 
+@media (min-width: 900px) {
+    li.nav-item.top{
+        margin: 0 40px 0 0;
+     }
+    
+}
+@media (min-width: 1200px) {
+    li.nav-item.top{
+        margin: 0 70px 0 0;
+     }
+    
+}
