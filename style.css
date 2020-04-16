@@ -1,5 +1,5 @@
 html {
-    overflow-y: auto;
+    /* overflow-y: auto; */
     overflow-x: hidden;
 }
 
@@ -48,7 +48,8 @@ li.nav-item.top{
     word-spacing: 40px;
 }
 .form-control{
-    /* /* height: 40px; */
+    margin-top: 2%;
+    height: 30px;
     width:200px;
     border-radius: 100px;
 }
@@ -101,26 +102,30 @@ float:righ;
 a {
     color:grey;
 }
-.col-lg-5.box{
-    margin-top: 10px;
+.col-lg-6.box{
+    margin-top: 5px;
     background-color:white;
     border-radius: 25px;
 }
 .pic-box{
     height: 15px;
     weight:15px;
+    margin-top:5px;
+    margin-left: 10px;
 }
 .text-box{
     font-size: 10px;
     word-spacing: 1px;
     color: gray;
+    
 }
 #box-btn{
-    margin-top: 30%;
+    margin-top: 25%;
     float: right;
     border-radius: 25px;
-    width: 40px;
-    height:20px;
+    width: 50px;
+    height:25px;
+    margin-bottom: 2%;
 }
 .col-sm-3.side-bar{
     padding-left: 0px;
@@ -133,7 +138,7 @@ a {
 }
 @media(min-width:1000px){
     .form-control{
-        width:300px;
+        /* width:400px; */
         border-radius: 100px;
     }
 }
@@ -151,6 +156,13 @@ a {
     a.b:hover{
         border-bottom: 2px solid blue;
     }
+    .nav-item.top.middle{
+        margin-left: 45%;
+    }
+    .form-control{
+        margin-left: 25%;
+        width: 300px;
+    }
 } 
 @media (min-width: 900px) {
     li.nav-item.top{
@@ -163,4 +175,26 @@ a {
         margin: 0 70px 0 0;
      }
     
+}
+@media (max-width: 768px){
+    .nav-item.top.middle{
+        margin-left: 8%;
+    }
+    .nav-item.top.m1{
+        margin-left: 8%;
+    }
+    .form-control{
+        width:10px;
+        margin-left:35px;
+    }
+}
+@media (min-width:768px){
+    .row.second{
+        height:1050px;
+    }
+}
+@media (min-width:991px){
+    .row.second{
+        height:650px;
+    }
 }
